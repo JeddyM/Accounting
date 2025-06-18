@@ -1,0 +1,4 @@
+.mask-blob {
+  mask-image: url('/blob.svg');  /* Use an SVG path */
+  -webkit-mask-image: url('/blob.svg');
+}
