@@ -18,7 +18,7 @@ function App() {
           path="/"
           element={
             <>
-              
+              <Navbar />
               <Hero />
               <Services />
               <Banner1 />
@@ -34,7 +34,7 @@ function App() {
             <>
               <Navbar />
               <ServicesDetails />
-              <Footer/>
+              <Footer />
             </>
           }
         />
