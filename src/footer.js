@@ -21,16 +21,16 @@ const Footer = () => {
               soft and/or medium-detected. Danger Controls.
             </p>
             <div className="flex space-x-4 pt-2">
-              <a href="#" className="text-gray-400 hover:text-white transition">
+              <a href="/facebook" className="text-gray-400 hover:text-white transition">
                 <FaFacebook size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition">
+              <a href="/twitter" className="text-gray-400 hover:text-white transition">
                 <FaTwitter size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition">
+              <a href="/twitter" className="text-gray-400 hover:text-white transition">
                 <FaInstagram size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition">
+              <a href="/LinkedIn" className="text-gray-400 hover:text-white transition">
                 <FaLinkedin size={20} />
               </a>
             </div>
@@ -40,11 +40,11 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">Useful Links</h3>
             <ul className="space-y-2 text-gray-400">
-              <li><a href="#" className="hover:text-white transition">Home</a></li>
-              <li><a href="#" className="hover:text-white transition">About Us</a></li>
-              <li><a href="#" className="hover:text-white transition">Services</a></li>
-              <li><a href="#" className="hover:text-white transition">Portfolio</a></li>
-              <li><a href="#" className="hover:text-white transition">Blog</a></li>
+              <li><a href="/Home" className="hover:text-white transition">Home</a></li>
+              <li><a href="/About" className="hover:text-white transition">About Us</a></li>
+              <li><a href="/services" className="hover:text-white transition">Services</a></li>
+              <li><a href="/Portifolio" className="hover:text-white transition">Portfolio</a></li>
+              <li><a href="/Blog" className="hover:text-white transition">Blog</a></li>
             </ul>
           </div>
           
@@ -52,11 +52,11 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">Support</h3>
             <ul className="space-y-2 text-gray-400">
-              <li><a href="#" className="hover:text-white transition">FAQ</a></li>
-              <li><a href="#" className="hover:text-white transition">Help Center</a></li>
-              <li><a href="#" className="hover:text-white transition">Privacy Policy</a></li>
-              <li><a href="#" className="hover:text-white transition">Terms of Service</a></li>
-              <li><a href="#" className="hover:text-white transition">Contact Support</a></li>
+              <li><a href="/FAQ" className="hover:text-white transition">FAQ</a></li>
+              <li><a href="/help" className="hover:text-white transition">Help Center</a></li>
+              <li><a href="/policy" className="hover:text-white transition">Privacy Policy</a></li>
+              <li><a href="/terms" className="hover:text-white transition">Terms of Service</a></li>
+              <li><a href="/support" className="hover:text-white transition">Contact Support</a></li>
             </ul>
           </div>
           

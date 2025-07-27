@@ -3,12 +3,14 @@ import HeroImage from "./Images/hero-image.jpg";
 
 function Hero() {
   return (
-    <section className="h-[500px] text-center py-20 bg-red-300">
+    <diV className=" bg-blue-50 ">
+    
+    <section className="text-center py-20 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 pt-20">
       <div className="mx-auto max-w-7xl w-full">
         <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
           {/* Text Content (Left) */}
           <div className="lg:w-1/2 text-center lg:text-left">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl leading-tight font-bold">
               Simplifying Finances. Empowering Growth.
             </h1>
             <p className="text-lg md:text-xl mb-8">
@@ -33,6 +35,9 @@ function Hero() {
         </div>
       </div>
     </section>
+    </diV>
+    
   );
 }
 export default Hero;
+/*<h1 className="text-4xl md:text-5xl font-bold mb-6">*/

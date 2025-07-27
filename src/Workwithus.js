@@ -1,120 +1,8 @@
-import React from "react";
-import HeroImage from "./Images/hero-image.jpg";
+import React from 'react'
 
-function ProductsSection() {
-  const services = [
-    {
-      title: "Assurance",
-      description:
-        "Independent audits and reviews to ensure financial transparency and compliance.",
-      icon: "🛡️", // Replace with your icon (or <Icon /> component)
-    },
-    {
-      title: "Advisory",
-      description:
-        "Strategic financial guidance to optimize business performance and growth.",
-      icon: "📈",
-    },
-    {
-      title: "Accounting",
-      description:
-        "Comprehensive bookkeeping and financial reporting tailored to your needs.",
-      icon: "📊",
-    },
-    {
-      title: "Tax",
-      description:
-        "Expert tax planning and compliance to minimize liabilities and maximize savings.",
-      icon: "💰",
-    },
-  ];
-
+function Workwithus() {
   return (
-    <div className="">
-      <section className="py-16 bg-white">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          {/* Heading & Description */}
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Best Audit And Accounting Services In Kenya
-            </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Beyond providing the best audit and accounting services in Kenya,
-              our objectives are to build trust and enhance value for clients
-              and stakeholders. Our services are grouped into four distinct
-              service lines:
-            </p>
-          </div>
-
-          {/* 4 Service Boxes */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {services.map((service, index) => (
-              <div
-                key={index}
-                className="bg-gray-50 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow border border-gray-100"
-              >
-                <div className="text-3xl mb-4">{service.icon}</div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                  {service.title}
-                </h3>
-                <p className="text-gray-600">{service.description}</p>
-                <div className="text-center">
-                  <button className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium transition-colors inline-flex items-center gap-2">
-                    View All Services
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-4 w-4"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M9 5l7 7-7 7"
-                      />
-                    </svg>
-                  </button>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="h-[500px] text-center py-20 bg-red-300">
-        <div className="mx-auto max-w-7xl w-full">
-          <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
-            {/* Text Content (Left) */}
-
-            {/* Image (Right) */}
-            <div className="lg:w-1/2 flex justify-center lg:justify-end animate-fade-in">
-              <img
-                src={HeroImage} // Replace with your image path
-                alt="Event Community"
-                className="w-full max-w-md rounded-lg shadow-lg"
-              />
-            </div>
-
-            <div className="lg:w-1/2 text-center lg:text-left">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                Turn Events into Communities
-              </h1>
-              <p className="text-lg md:text-xl mb-8">
-                You can run the entire event, from talks to coffee break,
-                networking and afterparty. Then your community can live on past
-                the initial events.
-              </p>
-              <button className="px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
-                Signup for Beta
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="py-16 bg-gray-50">
+    <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
@@ -302,39 +190,7 @@ function ProductsSection() {
           </div>
         </div>
       </section>
-
-      <section className="h-[500px] text-center py-20 bg-red-300">
-        <div className="mx-auto max-w-7xl w-full">
-          <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
-            {/* Text Content (Left) */}
-
-            {/* Image (Right) */}
-            <div className="lg:w-1/2 flex justify-center lg:justify-end animate-fade-in">
-              <img
-                src={HeroImage} // Replace with your image path
-                alt="Event Community"
-                className="w-full max-w-md rounded-lg shadow-lg"
-              />
-            </div>
-
-            <div className="lg:w-1/2 text-center lg:text-left">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                Turn Events into Communities
-              </h1>
-              <p className="text-lg md:text-xl mb-8">
-                You can run the entire event, from talks to coffee break,
-                networking and afterparty. Then your community can live on past
-                the initial events.
-              </p>
-              <button className="px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
-                Signup for Beta
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-  );
+  )
 }
 
-export default ProductsSection;
+export default Workwithus
