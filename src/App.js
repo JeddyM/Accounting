@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./navbar";
 import Hero from "./hero";
 import Services from "./Services";
@@ -18,7 +18,7 @@ function App() {
           path="/"
           element={
             <>
-              <Navbar />
+              
               <Hero />
               <Services />
               <Banner1 />
@@ -46,3 +46,4 @@ function App() {
 export default App;
 
 //  <div  className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 ">
+//
